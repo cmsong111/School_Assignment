@@ -3,9 +3,9 @@
 int main(void)
 {
 	double radius, area;
-	printf("¿øÀÇ ¹İÁö¸§À» ÀÔ·ÂÇÏ½Ê½Ã¿À\n");
+	printf("ì›ì˜ ë°˜ì§€ë¦„ì„ ì…ë ¥í•˜ì‹­ì‹œì˜¤\n");
 	scanf("%lf", &radius);
 	area = radius * radius*PI;
-	printf("¿øÀÇ ³ĞÀÌ´Â %f ÀÔ´Ï´Ù", area);
+	printf("ì›ì˜ ë„“ì´ëŠ” %f ì…ë‹ˆë‹¤", area);
 	return 0;
 }

@@ -9,8 +9,8 @@ int main(void)
 	time = distance / light_speed;
 	time = time / 60.0;
 
-	printf("ºûÀÇ ¼Óµµ´Â %f Km/s \n", light_speed);
-	printf("ÅÂ¾ç°ú Áö±¸¿ÍÀÇ °Å¸® %f Km \n", distance);
-	printf("µµ´Ş ½Ã°£Àº %fºĞ \n", time);
+	printf("ë¹›ì˜ ì†ë„ëŠ” %f Km/s \n", light_speed);
+	printf("íƒœì–‘ê³¼ ì§€êµ¬ì™€ì˜ ê±°ë¦¬ %f Km \n", distance);
+	printf("ë„ë‹¬ ì‹œê°„ì€ %fë¶„ \n", time);
 	return 0;
 }

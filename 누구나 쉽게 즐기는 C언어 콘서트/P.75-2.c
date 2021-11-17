@@ -5,6 +5,6 @@ int main(void)
 	int price;
 	price = 22000;
 
-	printf("Á¦Ç°ÀÇ °¡°İÀº %d ÀÔ´Ï´Ù.",price);
+	printf("ì œí’ˆì˜ ê°€ê²©ì€ %d ì…ë‹ˆë‹¤.",price);
 	return 0;
 }

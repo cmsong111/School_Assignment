@@ -5,11 +5,11 @@ int main(void)
 {
 	int usd, krw;
 	
-	printf("´Ş·¯ ±İ¾×À» ÀÔ·ÂÇÏ½Ê½Ã¿À\n");
+	printf("ë‹¬ëŸ¬ ê¸ˆì•¡ì„ ì…ë ¥í•˜ì‹­ì‹œì˜¤\n");
 	scanf("%d", &usd);
 
 	krw = usd * EXCHAGE_RATE;
-	printf("%d ´Ş·¯ÀÇ ¿øÈ­°¡°İÀº %d¿ø ÀÔ´Ï´Ù.", usd, krw);
+	printf("%d ë‹¬ëŸ¬ì˜ ì›í™”ê°€ê²©ì€ %dì› ì…ë‹ˆë‹¤.", usd, krw);
 
 	return 0;
 }

@@ -2,22 +2,22 @@
 
 int main(void)
 {
-	//º¯¼ö »ğÀÔ
+	//ë³€ìˆ˜ ì‚½ì…
 	int p_hotel, p_airplane, p_day, p_pocket;
 	int sum;
-	//º¯¼ö ÀÔ·Â
-	printf("¿©ÇàÀÏÀÚ È£ÅÚ°¡°İ ºñÇà±â°¡°İ ÇÏ·ç¿ëµ· ±İ¾×À» Â÷·Ê´ë·Î Àû¾îÁÖ¼¼¿ä\n");
+	//ë³€ìˆ˜ ì…ë ¥
+	printf("ì—¬í–‰ì¼ì í˜¸í…”ê°€ê²© ë¹„í–‰ê¸°ê°€ê²© í•˜ë£¨ìš©ëˆ ê¸ˆì•¡ì„ ì°¨ë¡€ëŒ€ë¡œ ì ì–´ì£¼ì„¸ìš”\n");
 	printf("Ex) 3 50000 100000 50000\n");
 	scanf("%d%d%d%d", &p_day, &p_hotel, &p_airplane, &p_pocket);
-	//ÀÔ·Â È®ÀÎ
-	printf("¿©ÇàÀÏÀÚ´Â %d\n", p_day);
-	printf("È£ÅÚ °¡°İÀº%d\n", p_hotel);
-	printf("ºñÇà±â ºñ¿ëÀº%d\n", p_airplane);
-	printf("ÇÏ·ç ¿ëµ·Àº %d\n", p_pocket);
-	//°¡°İÈ®ÀÎ
+	//ì…ë ¥ í™•ì¸
+	printf("ì—¬í–‰ì¼ìëŠ” %d\n", p_day);
+	printf("í˜¸í…” ê°€ê²©ì€%d\n", p_hotel);
+	printf("ë¹„í–‰ê¸° ë¹„ìš©ì€%d\n", p_airplane);
+	printf("í•˜ë£¨ ìš©ëˆì€ %d\n", p_pocket);
+	//ê°€ê²©í™•ì¸
 	sum = p_day * (p_hotel + p_pocket) + p_airplane;
-	//ÃÑ ¿©Çà°æºñ µ· È®ÀÎ
-	printf("ÃÑ ¿©Çà°æºñ´Â %dÀÔ´Ï´Ù", sum);
+	//ì´ ì—¬í–‰ê²½ë¹„ ëˆ í™•ì¸
+	printf("ì´ ì—¬í–‰ê²½ë¹„ëŠ” %dì…ë‹ˆë‹¤", sum);
 
 
 	return 0;

@@ -8,6 +8,6 @@ int main(void)
 	scanf("%d", &y);
 
 	a = x + y;
-	printf("µÎ ¼öÀÇ ÇÕÀº : %d \n",a);
+	printf("ë‘ ìˆ˜ì˜ í•©ì€ : %d \n",a);
 
 }

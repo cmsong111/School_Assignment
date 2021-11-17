@@ -5,11 +5,11 @@ int main(void)
 	long long int property;
 	long long int saving;
 
-	printf("¸Å´Ş ÀúÃà ±İ¾×À» ÀÔ·ÂÇÏ½Ê½Ã¿À: ");
+	printf("ë§¤ë‹¬ ì €ì¶• ê¸ˆì•¡ì„ ì…ë ¥í•˜ì‹­ì‹œì˜¤: ");
 	scanf("%lld", &saving);
 
 	property = saving * 12 * 30;
 
-	printf("30³â ÈÄÀÇ Àç»ê = %lld¿ø \n", property);
+	printf("30ë…„ í›„ì˜ ì¬ì‚° = %lldì› \n", property);
 	return 0;
 }

@@ -126,7 +126,7 @@ namespace LAB_5
             this.Age_groupbox.Controls.Add(this.Age_input_group_box);
             this.Age_groupbox.Location = new System.Drawing.Point(12, 12);
             this.Age_groupbox.Name = "Age_groupbox";
-            this.Age_groupbox.Size = new System.Drawing.Size(683, 232);
+            this.Age_groupbox.Size = new System.Drawing.Size(726, 232);
             this.Age_groupbox.TabIndex = 0;
             this.Age_groupbox.TabStop = false;
             this.Age_groupbox.Text = "Age Calculator";
@@ -154,7 +154,7 @@ namespace LAB_5
             this.AgeResult_GroupBox.Controls.Add(this.Result_label1);
             this.AgeResult_GroupBox.Location = new System.Drawing.Point(404, 31);
             this.AgeResult_GroupBox.Name = "AgeResult_GroupBox";
-            this.AgeResult_GroupBox.Size = new System.Drawing.Size(244, 164);
+            this.AgeResult_GroupBox.Size = new System.Drawing.Size(316, 164);
             this.AgeResult_GroupBox.TabIndex = 2;
             this.AgeResult_GroupBox.TabStop = false;
             this.AgeResult_GroupBox.Text = "Result";
@@ -252,7 +252,7 @@ namespace LAB_5
             this.DateCalGroup.Controls.Add(this.Date_input_group_box);
             this.DateCalGroup.Location = new System.Drawing.Point(12, 261);
             this.DateCalGroup.Name = "DateCalGroup";
-            this.DateCalGroup.Size = new System.Drawing.Size(683, 227);
+            this.DateCalGroup.Size = new System.Drawing.Size(732, 227);
             this.DateCalGroup.TabIndex = 1;
             this.DateCalGroup.TabStop = false;
             this.DateCalGroup.Text = "Date Calculaor";
@@ -263,7 +263,7 @@ namespace LAB_5
             this.DateResultGroup.Controls.Add(this.DateResultLabel);
             this.DateResultGroup.Location = new System.Drawing.Point(292, 95);
             this.DateResultGroup.Name = "DateResultGroup";
-            this.DateResultGroup.Size = new System.Drawing.Size(385, 111);
+            this.DateResultGroup.Size = new System.Drawing.Size(434, 111);
             this.DateResultGroup.TabIndex = 4;
             this.DateResultGroup.TabStop = false;
             this.DateResultGroup.Text = "Result";
@@ -420,7 +420,7 @@ namespace LAB_5
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(713, 503);
+            this.ClientSize = new System.Drawing.Size(756, 503);
             this.Controls.Add(this.DateCalGroup);
             this.Controls.Add(this.Age_groupbox);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));

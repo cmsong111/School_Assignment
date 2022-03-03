@@ -2,16 +2,14 @@
 
 int main(void)
 {
-	int a, b, c, d;
+	int a, b;
 	printf("첫번째 정수를 입력하시오 : ");
-	scanf("%d", &a);
+	scanf_s("%d", &a);
 	printf("두번째 정수를 입력하시오 : ");
-	scanf("%d", &b);
+	scanf_s("%d", &b);
 
-	c = a / b;
-	d = a % b;
 
-	printf("몫은 %d 이고 나머지는 %d 입니다.", c, d);
-	
+	printf("몫은 %d 이고 나머지는 %d 입니다.", a / b, a % b);
+
 	return 0;
 }

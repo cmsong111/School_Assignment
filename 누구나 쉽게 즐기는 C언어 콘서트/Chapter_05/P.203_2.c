@@ -3,17 +3,18 @@
 int main(void)
 {
 	char collor;
-	
-	printf("신호등의 색깔 입력: ");
+
+	printf("신호등의 색깔 입력(R, G, Y): ");
 	collor = getchar();
-	
-	if (collor == 'R')
+
+	if (collor == 'R' || collor == 'r')
 		printf("정지");
-	else if (collor == 'G')
+	else if (collor == 'G' || collor == 'g')
 		printf("진행");
-	else if (collor == 'Y')
+	else if (collor == 'Y' || collor == 'y')
 		printf("주의");
 	else
-		printf("다른거");
+		printf("Error");
+
 	return 0;
 }

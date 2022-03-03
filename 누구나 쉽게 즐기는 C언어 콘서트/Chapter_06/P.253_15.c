@@ -4,30 +4,30 @@ int main(void)
 {
 	int i = 0;
 	char x;
-	
+
 	printf("문자를 입력하시오 :");
-	scanf("%c", &x);
+	scanf_s("%c", &x);
 
 	if (x == 'a') //a의 아스키코드가 97
 	{
 		i++;
 	}
 
-	do
+	while(1)
 	{
+		getchar();
 		printf("문자를 입력하시오: (종료.) ");
-		scanf("%c", &x);
-		if (x == '.')
+		scanf_s("%c", &x);
+
+		if (x == 'a')
 		{
 			i++;
 		}
-		else if (x == 10)
+		else if (x == 46)
 		{
-			;
+			break;
 		}
-
-	} while (x != 46); //false 값이 .의 아스키코드인 46
-
+	}
 	printf("a의 개수=%d", i);
 
 	return 0;

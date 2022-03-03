@@ -2,14 +2,11 @@
 
 int main(void)
 {
-	int a = 0, b;
+	int a;
 	printf("몇번이나 반복할까요?: ");
-	scanf("%d", &b);
-	while (a < b)
-	{
+	scanf_s("%d", &a);
+	for (int i = 0; i < a; i++) {
 		printf("안녕하세요\n");
-		a++;
-
 	}
 	return 0;
 }

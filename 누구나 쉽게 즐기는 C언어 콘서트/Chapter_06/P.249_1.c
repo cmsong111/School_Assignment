@@ -2,12 +2,8 @@
 
 int main(void)
 {
-	int a=60;
-	while (a > -1)
-	{
-		printf("%d ",a);
-		--a;
-
+	for(int i = 60; i >= 0; i--){
+		printf("%d ",i);
 	}
 	printf("\n발사");
 	return 0;

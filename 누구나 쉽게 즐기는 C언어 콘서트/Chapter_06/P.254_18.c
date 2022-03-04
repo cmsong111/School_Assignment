@@ -27,7 +27,7 @@ int main(void)
 	}
 
 	printf("1000번중의 %d번 승리\n", victory);
-	printf("이긴 확률 =  %f%%\n", (float)victory/(float)bets*100);
+	printf("이긴 확률 =  %lf%%\n", (float)victory/(float)bets*100);
 	printf("평균 베팅 횟수 = %d", bets);
 	
 	return 0;

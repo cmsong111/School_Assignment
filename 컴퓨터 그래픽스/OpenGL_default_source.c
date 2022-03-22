@@ -64,7 +64,6 @@ int main(int argc, char** argv) {
 	glClearColor(0.0, 0.0, 0.0, 1.0);
 
 	glutDisplayFunc(MyDisplay);
-	
 	//glutReshapeFunc(MyResahpe);
 	//glutKeyboardFunc(MyKeyBoard);
 	//glutSpecialFunc(MySpecial);

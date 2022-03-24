@@ -15,7 +15,7 @@ void MyDisplay()
     glClear(GL_COLOR_BUFFER_BIT);
     glColor3f(1.0f, 0.0f, 0.0f);
     glLineWidth(4.0f);
-    glBegin(GL_LINES);
+    glBegin(GL_LINE_STRIP);
 
     z = -0.8f;
 

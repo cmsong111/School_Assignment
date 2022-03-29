@@ -33,10 +33,10 @@ void PrivateAccessError::g(){
 }
 
 int main(){
-	PrivateAccessError objA; // PrivateAccessError()는 private이므로 호출불가
+	//PrivateAccessError objA; // PrivateAccessError()는 private이므로 호출불가
     PrivateAccessError objB(100);
-    objB.a=10; // a는 private이므로 접근 불가
+    //objB.a=10; // a는 private이므로 접근 불가
     objB.b=20;
-    objB.f(); // f()는 private이므로 호출 불가
+    //objB.f(); // f()는 private이므로 호출 불가
     objB.g();
 }

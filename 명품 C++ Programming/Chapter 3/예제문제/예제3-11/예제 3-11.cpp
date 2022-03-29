@@ -11,7 +11,8 @@ public:
 };
 
 Adder::Adder(int a, int b) {
-	op1 = a; op2 = b
+	op1 = a;
+	op2 = b;
 }
 
 int Adder::process() {
@@ -19,7 +20,7 @@ int Adder::process() {
 }
 
 class Calculator{
-piblic:
+public:
 	void run();
 };
 

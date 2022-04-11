@@ -5,12 +5,15 @@
 
 using namespace std;
 
-int main() {
+int main()
+{
 	string str;
 
-	while (true) {
+	while (true)
+	{
 		getline(cin, str);
-		if (str.compare("exit") == 0) break;
+		if (str.compare("exit") == 0)
+			break;
 
 		srand((unsigned)time(0));
 		int n = rand() % (str.length());

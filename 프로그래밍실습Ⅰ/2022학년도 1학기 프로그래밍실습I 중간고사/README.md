@@ -1,0 +1,1 @@
+[Contest1027 - 2022학년도 1학기 프로그래밍실습I 중간고사](http://www.ascode.org/contest.php?cid=1027)

@@ -1,0 +1,1 @@
+[Contest1030 - 2022학년도 1학기 프로그래밍실습I 기말고사 대비 연습 콘테스트](http://www.ascode.org/contest.php?cid=1030)

@@ -1,54 +1,40 @@
-#pragma warning(disable: 4996)
- 
 #include <stdio.h>
-#include <math.h>
+#pragma warning(disable:4996)
  
  
-int check(double a, double b, double c) {
-    double big = a;
-    //큰수찾기
-    if (big < b) {
-        big = b;
-    }
-    if (big < c) {
-        big = c;
-    }
-    //참 리턴
-    if (big < (a + b + c - big)) {
-        return (int)1;
-    }
-    else {
-        return (int)0;
-    }
-}
  
 int main(void) {
-    int count;
-    double a, b, c;
-    double area,p;
-    scanf("%d", &count);
  
-    while (count--) {
-        scanf("%lf %lf %lf", &a, &b, &c);
-        if (check(a,b,c)==0) {
-            printf("No Triangle!\n");
-            continue;
+    int testcase;
+    int count[10] = { 0, };
+    int numlen,temp;
+     
+ 
+    scanf("%d", &testcase);
+    while (testcase--) {
+        //초기화
+        for (int i = 0; i < 10; i++) {
+            count[i] = 0;
         }
-        else if (check(a, b, c) == 1) {
-            p = (a + b + c) / 2;
-            area = sqrt(p * (p - a) * (p - b) * (p - c));
-            printf("%.10lf\n", area);
+        scanf("%d", &numlen);
+        for (int i = 0; i < numlen; i++) {
+            scanf("%d", &temp);
+            temp %= 10;
+            count[temp]++;
         }
+        for (int i = 0; i < 10; i++) {
+            printf("%d : %d\n", i, count[i]);
+        }
+ 
+        printf("\n");
     }
- 
     return 0;
- 
 }
 /**************************************************************
-    Problem: 1245
+    Problem: 1294
     User: 20192336
-    Language: C++
+    Language: C
     Result: Accepted
     Time:4 ms
-    Memory:1132 kb
+    Memory:1120 kb
 ****************************************************************/

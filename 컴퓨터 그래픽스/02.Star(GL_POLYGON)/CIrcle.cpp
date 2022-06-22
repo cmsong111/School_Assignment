@@ -1,23 +1,7 @@
-/*
-날  짜 : 2019.3.25
-작성자 : 
-파일명 :
-주  제 :
-*/
-
-// 저번복습 + 추가내용
-// 0) Library
-// 1) call back
-// 2) 네모, 별, 색깔
-// 3) 원 x = r, sin(θ)
-// y = r, cos(θ)
-// 4) reshape->비율
-
 #include <stdio.h>
-#include <glut.h>  
-#include <glu.h> 
-#include <gl.h> 
 #include <math.h>
+
+#include<GL/glut.h>
 
 #define GL_PI 3.1415f//원주율은 3.14는 원 둘레 /지름이다.
 

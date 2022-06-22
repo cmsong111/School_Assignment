@@ -1,10 +1,4 @@
-/*  날짜: 
-	작성자: 김남주
-	주제: 콜백 관련 기본 소스	*/
-
-#include<glut.h>
-#include<glu.h>
-#include<gl.h>
+#include<GL/glut.h>
 
 
 void MyDisplay() {
